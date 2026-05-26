@@ -1,0 +1,85 @@
+
+        /* this is from aanother source*/
+        .boddy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    
+}
+.form-container {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 40px;
+    border: 1px solid #acbcdd;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+.input-group {
+    margin-bottom: 20px;
+    display: flex; 
+    gap: 12px;
+    flex-direction: column;
+}
+
+/* Default State */
+input {
+    padding: 12px;
+    border: 2px solid #D1D5DB;
+    border-radius: 6px;
+    outline: none;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+/* Active/Focus State */
+input:focus {
+    border-color: #3B82F6;
+   background-color: #f2f5fc;
+}
+
+/* Error State Styles */
+input.invalid {
+    border-color: #EF4444;
+    background-color: #FEF2F2;
+}
+
+.error-text {
+    color: #EF4444;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none; /* Hidden by default */
+}
+
+input.invalid + .error-text {
+    display: block;
+}
+
+/* we use the dot(.) symbole to call a class in css while we use harsh # symbole to called an id*/
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 900;
+
+}
+#whatsapp-box{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 20px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    z-index:1000;
+}

@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #0A2540;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #F59E0B;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(to right, #0A2540, #1E3A8A);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+/* Sections */
+.section {
+    background: white;
+    padding: 50px 20px;
+    margin: 30px auto;
+    width: 90%;
+    border-radius: 8px;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Services Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    color: green;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* centers the grid */
+}
+
+.grid-course{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    color: green;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* centers the grid */
+}
+
+.box {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #F59E0B;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Contact Form */
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+}
+
+form button {
+    background: #0A2540;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #0A2540;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+.box:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+img {
+    border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+.yaqimg {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+/* projects cards styles*/
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 18px;
+  color: green;
+  font-weight: bold;
+}
+nav{
+            
+            margin: 0 35px;
+            display: flex;
+            flex-direction: row;
+
+            color: #111a21;
+            font-weight: bold;
+            gap: 10rem;
+            justify-content: flex-end;
+            align-items: center;
+     }
+      a {
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            font-size:20px ;
+        }
+        .text{
+            text-align: center;
+        }
+
+        .grid-course{
+            display: flex;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 22px;
+            color: green;
+            justify-content: center;
+            width: 36px;
+        }
+

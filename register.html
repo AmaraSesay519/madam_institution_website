@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration | Training Institute</title>
+    <link rel="stylesheet" href="/instutute2/style.css">
+</head>
+<body>
+
+<header>
+    <h2>YaqAmrakabSesay Training Institute</h2>
+</header>
+
+<section class="section">
+    <h2>Student Registration Form</h2>
+
+    <form action="https://formsubmit.co/YOUR_EMAIL@gmail.com" method="POST">
+        <input type="text" name="student_name" placeholder="Student Full Name" required>
+        <input type="number" name="age" placeholder="Student Age" required>
+        <input type="text" name="parent_name" placeholder="Parent / Guardian Name" required>
+        <input type="text" name="phone" placeholder="Phone Number" required>
+
+        <select name="course" required>
+            <option value="">Select Course</option>
+            <option>Masonry</option>
+            <option>Carpentry</option>
+            <option>Plumbing</option>
+            <option>Electrical</option>
+            <option>Painting</option>
+        </select>
+
+        <textarea name="message" placeholder="Additional Information"></textarea>
+
+        <input type="hidden" name="_subject" value="New Student Registration">
+        <input type="hidden" name="_captcha" value="false">
+
+        <button type="submit">Submit Registration</button>
+    </form>
+</section>
+
+</body>
+</html>
