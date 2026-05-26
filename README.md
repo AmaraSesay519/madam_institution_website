@@ -1,3 +1,9 @@
+## Team Members for this project
+- 1 Amara sesay 10519
+- 2 Saidu I Kamara 1655
+- 3 Yusif Koroma 10229
+- 4 Samuell E Moiwo 11249
+- 5 Abubakarr Forfanah 10510
 # Online Food Ordering System
 
 A complete web-based food ordering system with responsive design, built using HTML5, CSS3, JavaScript, PHP, and MySQL.
@@ -90,14 +96,6 @@ The full source code for this project is available on GitHub:
 **GitHub Repository:**
 https://github.com/AmaraSesay519/online-food-ordering-system-project2.git
 
-
-
-## Team Members for this project
-- 1 Amara sesay 10519
-- 2 Saidu I Kamara 1655
-- 3 Yusif Koroma 10229
-- 4 Samuell E Moiwo 11249
-- 5 Abubakarr Forfanah 10510
 
 ## Installation & Setup
 
