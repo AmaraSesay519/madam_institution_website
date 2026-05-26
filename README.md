@@ -2,6 +2,12 @@
 
 A complete web-based food ordering system with responsive design, built using HTML5, CSS3, JavaScript, PHP, and MySQL.
 
+## Project Overview
+
+The **Online Food Ordering System** is a web-based application designed to allow users to browse food menus, register accounts, and simulate food ordering through an interactive web interface. The system demonstrates the core features of an online food ordering platform and provides different dashboards based on user roles.
+
+The project was developed as part of a **Web Programming course project** and focuses on implementing frontend technologies such as **HTML, CSS, and JavaScript** ** For the backend it facuses on implementing php and MySql for the database integration**.
+
 ## Features
 
 ### Customer Features
@@ -76,6 +82,21 @@ food-ordering-system/
 └── database/
     └── schema.sql                 # Database schema
 ```
+
+## Source Code Repository
+
+The full source code for this project is available on GitHub:
+
+**GitHub Repository:**
+https://github.com/Yaqubkabazinamara/online-food-ordering-system
+
+
+
+## Author
+
+Name: *GROUP TWO MEMBERS*
+Course: Web Programming
+Project: Online Food Ordering System
 
 ## Installation & Setup
 
